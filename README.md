@@ -16,13 +16,9 @@ Research codebase for **Patiño et al. (2026)**, *"Transfer Learning for ECG Cla
 
 To get started, clone the repository and install the required Python packages from `requirements.txt`:
 
-```bash
-git clone [https://github.com/clpatino/ecg-transfer-learning.git](https://github.com/clpatino/ecg-transfer-learning.git)
-cd ecg-transfer-learning
+```
 pip install -r requirements.txt
 ```
-
-The repository is tested with the Python version 3.13.1.
 
 # Recommended folder repository structure
 ```
