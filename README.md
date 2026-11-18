@@ -1,18 +1,24 @@
-# Transfer Learning for ECG classification
+# Transfer Learning for ECG Classification
 
-This repository is a fork of [UTU-Health-Research/dl-ecg-classifier](https://github.com/UTU-Health-Research/dl-ecg-classifier). This adds fine-tuning code to the deep learning for ECG repository to support the experiments performed in the paper Patiño et al. (2026), "Transfer Learning for ECG Classification: Effects of Shared Labels, Granularity, and Fine-Tuning in Small Clinical Datasets", which was presented at the 39th IEEE International Symposium on Computer-Based Medical Systems (CBMS 2026).
+Research codebase for **Patiño et al. (2026)**, *"Transfer Learning for ECG Classification: Effects of Shared Labels, Granularity, and Fine-Tuning in Small Clinical Datasets,"* presented at the **39th IEEE International Symposium on Computer-Based Medical Systems (CBMS 2026)**.
 
-This repository provides code to:
+> **Upstream Attribution:** This project builds upon the [UTU-Health-Research/dl-ecg-classifier](https://github.com/UTU-Health-Research/dl-ecg-classifier) framework, extending it with transfer learning, fine-tuning pipelines, and experimental evaluation tools for small clinical ECG datasets.
 
-1. Pretrain ECG encoders on a source dataset/task.
-2. Transfer learned representations to downstream ECG classification/regression tasks.
-3. Evaluate models with standardized metrics and experiment tracking.
+---
+
+## Core Capabilities
+
+1. **Pretraining:** Train deep ECG encoders on large source datasets and tasks.
+2. **Transfer & Fine-Tuning:** Load pretrained representations and fine-tune models on low-resource downstream clinical datasets.
+3. **Evaluation:** Assess model performance across label granularities using standardized metrics and experiment tracking.
   
 # Usage
 
-To get started, install the required Python packages from the `requirements.txt` file using the following command:
+To get started, clone the repository and install the required Python packages from `requirements.txt`:
 
-```
+```bash
+git clone [https://github.com/clpatino/ecg-transfer-learning.git](https://github.com/clpatino/ecg-transfer-learning.git)
+cd ecg-transfer-learning
 pip install -r requirements.txt
 ```
 
